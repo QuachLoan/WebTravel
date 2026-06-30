@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: "Roboto", sans-serif;
+background-color: #f9f9fc;
+}
+.container{
+     background-color:  #ffffff;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9fc;
+    height: 8vh;
+    padding: 20px 0px 10px 0px;
+ 
+}
+.logo a{
+    color: #004d40;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+.logo{
+    margin-top: 10px;
+    
+
+}
+/* nav{
+    display: flex;
+} */
+.menu{
+    display: flex;
+    
+}
+.menu a{
+    text-decoration: none;  
+    color: #191c1c; 
+    font-size: 20px;
+}
+.menu li{
+    list-style: none;
+    padding: 10px 30px;
+    font-weight: 300;
+}
+.menu li :hover{
+ color: #ffb300 ;
+ border-bottom: 2px solid #ffb300;
+ font-weight: 500;
+}
+.book_tour button{
+border: none;
+background-color: #ffb300;
+border-radius: 20px;
+color: #191c1c;
+font-weight: 600;
+padding: 10px 20px 10px 20px;
+margin-top: 10px;
+}
+
+
+/* FOOTER */
+
+.footer-full{
+        background-color: #004d40;
+
+}
+.footer-container{
+    display: flex;
+    color: #ffffffcc;
+    background-color: #004d40;
+    justify-content: space-around;
+    padding: 100px 0px 100px 0px;
+}
+.name-logo{
+    font-size: 30px;
+     color: #ffb300 ;
+     font-weight: 500;
+     letter-spacing: 3px;
+
+
+}
+.footer-logo{
+    line-height: 2.0;
+}
+
+.icon-social{
+      display: flex;
+     gap: 5%;
+}
+.address-com{
+    display: flex;
+    gap :10px;
+    line-height: 2.5;
+}
+.footer-email{
+     line-height: 2.5;
+}
+.button-footer input{
+    border: none ;
+    border-radius: 5px;
+    height: 3.5vh;
+    width: 70%;
+    background-color: #087260cc;
+
+}
+.button-footer input::placeholder{
+    color: #ffffffcc;
+    padding-left: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.button-footer button{
+    border: none;
+    height: 3.5vh;
+    width: 15%;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    background-color: #ffb300;
+    font-size: 16px;
+    color: #191c1ccc;
+
+}
+.footer-copyright{
+    text-align: center;
+    color: #ffffffcc;
+    padding: 30px 0px 30px 0px;
+}
+hr{
+    border: 1px solid #087260cc;
+    display: flex;
+
+}
