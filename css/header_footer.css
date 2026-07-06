@@ -71,7 +71,7 @@ border: 2px solid #ffb300 ;
 border-radius: 20px;
 color: #191c1c;
 font-weight: 500;
-padding: 10px 20px 10px 20px;
+padding: 7px;
 margin-top: 10px;
  background-color: #f9f9fc;
  font-size: 25px;
@@ -96,7 +96,7 @@ background-color: #ffb300;
 
 .footer-full{
         background-color: #004d40;
-        margin-top: 2%;
+        /* margin-top: 2%; */
 
 }
 .footer-container{
