@@ -52,7 +52,8 @@ header{
 .menu li :hover{
  color: #ffb300 ;
  border-bottom: 2px solid #ffb300;
- font-weight: 500;
+ font-weight: 300;
+ padding-bottom: 23px;
 }
 .book_tour .log-in button{
 border: none;
