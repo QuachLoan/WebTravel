@@ -1,184 +1,232 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-font-family: "Roboto", sans-serif;
-background-color: #f9f9fc;
-}
-.container{
-     background-color:  #ffffff;
-}
-header{
-    display: flex;
-    justify-content: space-around;
+
+body {
+    font-family: "Roboto", sans-serif;
     background-color: #f9f9fc;
-    height: 8vh;
-    padding: 20px 0px 10px 0px;
- 
 }
-.logo a{
+
+.container {
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9fc;
+    height: 80px;
+    padding: 0 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 100;
+}
+
+.logo a {
     color: #004d40;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
-    
 }
-.logo{
-    margin-top: 10px;
-    
 
+.nav_menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
-/* nav{
-    display: flex;
-} */
-.menu{
-    display: flex;
-    
+
+.logo {
+    margin-top: 10px;
 }
-.menu a{
-    text-decoration: none;  
-    color: #191c1c; 
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #191c1c;
     font-size: 27px;
 }
-.menu li{
+
+.menu li {
     list-style: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-weight: 300;
 }
-.menu li :hover{
- color: #ffb300 ;
- border-bottom: 2px solid #ffb300;
- font-weight: 300;
- padding-bottom: 23px;
-}
-.book_tour .log-in button{
-border: none;
-background-color: #ffb300;
-border-radius: 20px;
-color: #191c1c;
-font-weight: 500;
-padding: 10px 20px 10px 20px;
-margin-top: 10px;
-font-size: 25px;
 
-}
-.book_tour .register button{
-border: 2px solid #ffb300 ;
-/* background-color: #ffb300; */
-border-radius: 20px;
-color: #191c1c;
-font-weight: 500;
-padding: 7px;
-margin-top: 10px;
- background-color: #f9f9fc;
- font-size: 25px;
+.menu li :hover {
+    color: #ffb300;
+    border-bottom: 2px solid #ffb300;
+    font-weight: 300;
+    padding-bottom: 23px;
 }
 
-.log-in a :hover{
-border: none;
-background-color: #d6b15a;
-border-radius: 20px;
-color: #191c1c;
-
+.book_tour {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
-.register a :hover{
 
-background-color: #ffb300;
+.book_tour .log-in button {
+    border: none;
+    background-color: #ffb300;
+    border-radius: 20px;
+    color: #191c1c;
+    font-weight: 500;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
 
+.book_tour .register button {
+    border: 2px solid #ffb300;
+    border-radius: 20px;
+    color: #191c1c;
+    font-weight: 500;
+    padding: 7px;
+    margin-top: 10px;
+    background-color: #f9f9fc;
+    font-size: 15px;
+}
 
+.log-in a :hover {
+    border: none;
+    background-color: #d6b15a;
+    border-radius: 20px;
+    color: #191c1c;
+}
+
+.register a :hover {
+    background-color: #ffb300;
 }
 
 
 /* FOOTER */
 
-.footer-full{
-        background-color: #004d40;
-        /* margin-top: 2%; */
-
+.footer-full {
+    background-color: #004d40;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     color: #ffffffcc;
     background-color: #004d40;
-    justify-content: space-around;
-    padding: 100px 0px 100px 0px;
-    font-size: 25px;
-}
-.name-logo{
-    font-size: 30px;
-     color: #ffb300 ;
-     font-weight: 500;
-     letter-spacing: 3px;
-
-
-}
-.footer-logo{
-    line-height: 2.0;
+    justify-content: space-between;
+    padding: 60px 80px;
+    gap: 50px;
 }
 
-.icon-social{
-      display: flex;
-     gap: 5%;
+.name-logo {
+    font-size: 24px;
+    color: #ffb300;
+    font-weight: 500;
+    letter-spacing: 3px;
 }
-.address-com{
+
+.footer-logo {
+    flex: 1;
     display: flex;
-    gap :10px;
-    line-height: 2.5;
+    flex-direction: column;
+    gap: 12px;
 }
-.footer-email{
-     line-height: 2.5;
-}
-.button-footer input{
-    border: none ;
-    border-radius: 5px;
-    height: 3.5vh;
-    width: 70%;
-    background-color: #087260cc;
 
+.icon-social {
+    font-size: 1.3rem;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
 }
-.button-footer input::placeholder{
+
+.address-com {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.address-com p {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #ffffffaa;
+}
+
+.footer-email {
+    line-height: 2.5;
+    flex: 1.2;
+}
+
+.button-footer .b1 {
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+}
+
+.button-footer input {
+    border: none;
+    border-radius: 4px 0 0 4px;
+    height: 40px;
+    flex-grow: 1;
+    background-color: #087260cc;
+    color: #fff;
+    padding-left: 15px;
+    font-size: 14px;
+    outline: none;
+}
+
+.button-footer input::placeholder {
     color: #ffffffcc;
     padding-left: 20px;
     font-size: 15px;
     letter-spacing: 1px;
 }
-.button-footer button{
+
+.button-footer button {
     border: none;
-    height: 3.5vh;
-    width: 15%;
-    border-top-right-radius:5px ;
-    border-bottom-right-radius: 5px;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 0 4px 4px 0;
     background-color: #ffb300;
-    font-size: 16px;
-    color: #191c1ccc;
-
+    font-size: 14px;
+    color: #191c1c;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
 }
-.footer-copyright{
+
+hr {
+    border: 0;
+    border-top: 1px solid #08726088;
+    margin: 0 80px;
+}
+
+.footer-copyright {
     text-align: center;
-    color: #ffffffcc;
-    padding: 30px 0px 30px 0px;
-    font-size: 25px;
+    color: #ffffff88;
+    padding: 20px 0;
+    font-size: 14px !important;
 }
-hr{
-    border: 1px solid #087260cc;
-    display: flex;
 
-}
-.book_tour{
-    display:flex;
-    gap:20px;
-}
-.footer-contact{
+.footer-contact {
     margin-top: 15px;
 }
 
 
 /* Banner */
-.banner-home{
-    height: 80vh;
-    background: url(../imgs/vhl2.jpg)center/cover;
+.banner-home {
+    height: 75vh;
+    background: url(../imgs/vhl2.jpg) center/cover;
+}
+
+main {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    min-height: 50vh;
 }
