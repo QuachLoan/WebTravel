@@ -92,3 +92,23 @@
 .card_btn:hover {
     background-color: #ffb300;
 }
+
+.breadcrumb {
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.breadcrumb a:hover {
+    background-color: #ffb300;
+}
+
+.breadcrumb span {
+    margin: 0 6px;
+    color: #777;
+}

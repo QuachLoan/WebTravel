@@ -1,4 +1,4 @@
-const apiUrl = "https://mocki.io/v1/d60c3726-2880-4804-9783-205008d50189";
+const apiUrl = "https://mocki.io/v1/974c2df4-a5b1-4700-820f-81dadb6b3c26";
 console.log("listblog.js loaded");
 function callApi() {
     fetch(apiUrl)
@@ -25,7 +25,7 @@ function callApi() {
                         <span class="card_category">${category}</span>
                         <h5 class="card_title">${title}</h5>
                         <p class="card_summary">${summary}</p>
-                        <a href="BlogDeital.html?id=${id}" class="card_btn">Xem chi tiết</a>
+                        <a href="BlogDetail.html?id=${id}" class="card_btn">Xem chi tiết</a>
                     </div>
                 </div>
                 </div>`;
