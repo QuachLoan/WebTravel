@@ -224,17 +224,3 @@ hr {
 .footer-contact {
     /* margin-top: 15px; */
 }
-
-
-/* Banner */
-.banner-home {
-    height: 75vh;
-    background: url(../imgs/vhl2.jpg) center/cover;
-}
-
-main {
-    display: block;
-    padding-top: 40px;
-    padding-bottom: 80px;
-    min-height: 50vh;
-}

@@ -1,0 +1,60 @@
+main.container {
+    background-color: transparent !important;
+}
+
+.tieu-de-muc {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #004d40;
+    border-bottom: 3px solid #004d40;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.style-content-p {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.gallery-destinations img {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.gallery-destinations img:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-info .bi {
+    background-color: #e0f2f1;
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: #004d40 !important;
+}
+
+.sidebar-info strong {
+    font-size: 14px;
+}
+
+.link-tour-title {
+    transition: color 0.2s ease;
+}
+
+.link-tour-title:hover {
+    color: #004d40 !important;
+}
+
+.banner-home {
+    height: 350px;
+    background: url('../imgs/vhl2.jpg') center/cover no-repeat;
+    position: relative;
+}
