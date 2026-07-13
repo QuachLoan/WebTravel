@@ -1,0 +1,359 @@
+/* =========================
+        TOUR SECTION
+========================= */
+
+.tour-section{
+    width: 90%;
+    max-width: 1300px;
+    margin: 70px auto;
+}
+
+
+/* =========================
+        HEADER TITLE
+========================= */
+
+.section-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-header h2{
+    font-size:42px;
+    color:#14532d;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.section-header p{
+    max-width:800px;
+    margin:auto;
+    color:#4b5563;
+    line-height:1.8;
+    font-size:17px;
+}
+
+
+
+/* =========================
+        REGION
+========================= */
+
+.region{
+    margin-bottom:80px;
+}
+
+
+.region-title{
+    position:relative;
+    padding-left:20px;
+    margin-bottom:35px;
+    border-left:6px solid #166534;
+}
+
+
+.region-title h2{
+    font-size:32px;
+    color:#14532d;
+    margin-bottom:10px;
+}
+
+
+.region-title p{
+    color:#666;
+    line-height:1.7;
+    max-width:900px;
+}
+
+
+
+/* =========================
+        TOUR GRID
+========================= */
+
+.tour-list{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(330px,1fr));
+
+    gap:35px;
+
+}
+
+
+
+/* =========================
+        CARD
+========================= */
+
+.tour-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 10px 30px rgba(20,83,45,0.12);
+
+    transition:0.35s ease;
+
+}
+
+
+.tour-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 20px 40px rgba(20,83,45,0.2);
+
+}
+
+
+
+/* =========================
+        IMAGE
+========================= */
+
+.tour-image{
+
+    height:240px;
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+.ha-giang{
+    background-image:url("../imgs/images.jpg");
+}
+
+
+.sapa{
+    background-image:url("../imgs/dia-diem-du-lich-sapa-1.jpg");
+}
+
+
+.halong{
+    background-image:url("../imgs/HL1-9875-1689130357.webp");
+}
+
+
+.phongnha{
+    background-image:url("../imgs/Screenshot\ 2026-07-14\ 000116.jpg");
+}
+
+
+.hoian{
+    background-image:url("../imgs/PhoCoHoiAn.jpg");
+}
+
+
+.danang{
+    background-image:url("../imgs/ba_na_hills.jpg");
+}
+
+
+.tphcm{
+    background-image:url("../imgs/tphcm-1-1751245519173693919081.jpg");
+}
+
+
+.mekong{
+    background-image:url("../imgs/The-Mekong-River.jpg");
+}
+
+
+.phuquoc{
+    background-image:url("../imgs/photo-1500375592092-40eb2168fd21.avif");
+}
+
+
+
+.tour-content{
+
+    padding:25px;
+
+}
+
+
+.tour-tag{
+
+    display:inline-block;
+
+    background:#166534;
+
+    color:white;
+
+    padding:7px 16px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.tour-content h3{
+
+    font-size:24px;
+
+    color:#14532d;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.tour-content p{
+
+    color:#555;
+
+    line-height:1.8;
+
+    margin-bottom:20px;
+
+}
+
+
+
+/* =========================
+        LIST DETAIL
+========================= */
+
+
+.tour-content ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+
+.tour-content li{
+
+    padding:10px 0;
+
+    color:#374151;
+
+    border-bottom:1px solid #e5e7eb;
+
+    font-size:15px;
+
+}
+
+
+.tour-content li:last-child{
+
+    border-bottom:none;
+
+}
+
+
+
+/* =========================
+        HOVER EFFECT IMAGE
+========================= */
+
+
+.tour-card:hover .tour-image{
+
+    transform:scale(1.05);
+
+}
+
+
+.tour-image{
+
+    transition:0.5s ease;
+
+}
+
+
+
+/* =========================
+        RESPONSIVE
+========================= */
+
+
+@media(max-width:992px){
+
+    .tour-list{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    .tour-section{
+
+        width:95%;
+
+    }
+
+
+    .tour-list{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .section-header h2{
+
+        font-size:32px;
+
+    }
+
+
+    .region-title h2{
+
+        font-size:26px;
+
+    }
+
+
+}
+
+
+
+@media(max-width:480px){
+
+
+    .tour-content{
+
+        padding:20px;
+
+    }
+
+
+    .tour-content h3{
+
+        font-size:21px;
+
+    }
+
+
+}
